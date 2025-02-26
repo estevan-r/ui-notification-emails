@@ -67,8 +67,12 @@ a {
 }
 
 #banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--primary-color);
   color: white;
+  font-size: 12px;
   width: 100%;
   padding: 10px 20px;
 }
@@ -81,4 +85,29 @@ footer {
 #disclaimer {
   color: var(--disclaimer-text-gray);
   font-size: 10px;
+}
+
+/* content */
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.program-name {
+  background-color: var(--program-color);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 10px;
 }
