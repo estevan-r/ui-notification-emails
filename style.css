@@ -234,10 +234,9 @@ button a {
 }
 
 .widget-icon {
-  background-color: #b9d8f3;
   width: 100%;
-  max-width: 32px;
-  padding: 4px;
+  max-width: 20px;
+  padding: 6px;
 }
 
 .widget-icon img {
