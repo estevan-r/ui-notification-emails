@@ -140,3 +140,25 @@ button a {
   color: white;
   font-weight: 700;
 }
+
+.process-visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.step-number {
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  width: 38px;
+  height: 38px;
+  border: 4px solid var(--main-content-black);
+}
+
+.line {
+  background-color: var(--step-line-gray);
+  width: 8px;
+  height: auto;
+}
