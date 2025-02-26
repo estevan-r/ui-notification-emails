@@ -1,3 +1,18 @@
+:root {
+  --primary-color: #001970;
+  --program-color: #b9d8f3;
+  --neutral-light-gray: #f0f0f0;
+  --neutral-dark-gray: #3d4551;
+  --info-light-blue: #e7f6f8;
+  --info-medium-blue: #009ec1;
+  --body-bg-color: #f4f4f4;
+  --main-content-black: #1b1b1b;
+  --main-link-color: #2277c1;
+  --footer-text-gray: #a9aeb1;
+  --disclaimer-text-gray: #71767a;
+  --step-line-gray: #dcdee0;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', 'Trebuchet MS', Helvetica, Arial, sans-serif;
