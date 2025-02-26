@@ -42,6 +42,10 @@ p {
   font-size: 16px;
 }
 
+ol {
+  font-weight: 700;
+}
+
 a {
   color: var(--main-link-color);
 }
@@ -87,7 +91,7 @@ footer {
   font-size: 10px;
 }
 
-/* content */
+/* content blocks*/
 .logo {
   width: auto;
   height: 40px;
@@ -99,7 +103,7 @@ header {
   gap: 32px;
 }
 
-.title {
+.flex {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -110,4 +114,29 @@ header {
   font-size: 13px;
   font-weight: 700;
   padding: 5px 10px;
+}
+
+#status {
+  padding-left: 20px;
+  border-left: 8px solid var(--neutral-dark-gray);
+}
+
+.status-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+button a {
+  color: white;
+  font-weight: 700;
 }
