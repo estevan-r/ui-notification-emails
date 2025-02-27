@@ -56,6 +56,15 @@ ol {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+li {
+  margin-top: 8px;
+}
+
 a {
   color: var(--main-link-color);
 }
@@ -77,6 +86,10 @@ a {
 
 .bold {
   font-weight: 700;
+}
+
+.semibold {
+  font-weight: 500;
 }
 
 /* content sections */
@@ -172,7 +185,7 @@ button {
   border: none;
   border-radius: 8px;
   margin-top: 4px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   max-width: 175px;
 }
 
@@ -231,12 +244,21 @@ button a {
   display: flex;
   gap: 16px;
   padding: 24px 20px;
+  border-left: 8px solid var(--neutral-dark-gray);
+}
+
+#login-info-widget {
+  background-color: var(--info-light-blue);
+  display: flex;
+  gap: 16px;
+  padding: 24px 20px;
+  border-left: 8px solid var(--info-medium-blue);
 }
 
 .widget-icon {
   width: 100%;
   max-width: 20px;
-  padding: 6px;
+  padding: 0 6px;
 }
 
 .widget-icon img {
