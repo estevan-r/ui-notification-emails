@@ -124,7 +124,7 @@ a {
   padding-right: 48px;
 }
 
-footer {
+#footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -154,7 +154,7 @@ footer {
   width: 221px;
 }
 
-header {
+#header {
   display: flex;
   flex-direction: column;
   gap: 32px;
