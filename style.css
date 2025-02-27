@@ -30,7 +30,9 @@ h1,
 h2,
 h3 {
   margin: 0;
+  line-height: 1.2;
   letter-spacing: -1px;
+  text-wrap: balance;
 }
 
 h1 {
@@ -44,11 +46,14 @@ h2 {
 
 h3 {
   font-size: 1.375rem;
+  margin-top: 3px;
+  margin-bottom: 4px;
 }
 
 p {
   font-size: 1rem;
   margin: 0;
+  text-wrap: pretty;
 }
 
 ol {
@@ -63,6 +68,7 @@ ul {
 
 li {
   margin-top: 8px;
+  text-wrap: balance;
 }
 
 a {
@@ -167,7 +173,7 @@ a {
   color: var(--disclaimer-text-gray);
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
   padding: 20px 0;
 }
 
