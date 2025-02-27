@@ -23,6 +23,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.4;
 }
 
 /* TYPOGRAPHY */
@@ -88,6 +89,10 @@ a {
 
 .widget-text {
   font-size: 0.875rem;
+}
+
+.normal {
+  font-weight: 400;
 }
 
 .bold {
